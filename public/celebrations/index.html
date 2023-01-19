@@ -7,16 +7,25 @@
   <title>Feliz Cumpleaños</title>
   <!-- CSS PRINCIPAL -->
   <link rel="stylesheet" href="../../resource/css/celebrations.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- ANIMATE.CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-  <main>
+  <main data-aos="zoom-out">
     <section class="card">
-      <h1 class="card-title">Feliz cumpleaños</h1>
+      <h1 class="card-title animate__animated animate__tada">Feliz cumpleaños</h1>
       <h1 class="card-subtitle">wichin</h1>
-      <div class="card-image"></div>
+      <!-- <div class="card-image-background"></div> -->
+      <img class="card-image" src="https://cdn-icons-png.flaticon.com/512/4481/4481293.png"" alt="image">
       <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
       <button class="card-button"></button>
     </section>
   </main>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
